@@ -12,8 +12,8 @@
     "test:ci": "npm run test -- -ci --runInBand --coverage",
     "lint": "ng lint",
     "e2e": "cypress open",
-    "e2e:ci": "cypress run"
-
+    "e2e:ci": "cypress run",
+    "apis": "json-server --watch mocks/db.json"
   },
   "jest": {
     "preset": "jest-preset-angular",
@@ -67,6 +67,7 @@
     "jest": "^24.8.0",
     "jest-createspyobj": "^1.2.2",
     "jest-preset-angular": "^7.1.1",
+    "json-server": "^0.15.0",
     "ts-loader": "^6.0.4",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",

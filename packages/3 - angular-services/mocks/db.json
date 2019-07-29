@@ -1,0 +1,21 @@
+{
+  "users": [{
+      "id": 0,
+      "name": "Adrian",
+      "age": 24,
+      "company": "Ilegra"
+    },
+    {
+      "id": 1,
+      "name": "Tarzan",
+      "age": 28,
+      "company": "Ilegra"
+    },
+    {
+      "id": 2,
+      "name": "José",
+      "age": 31,
+      "company": "Google"
+    }
+  ]
+}
