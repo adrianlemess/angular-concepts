@@ -2,22 +2,25 @@
   "users": [
     {
       "id": 0,
-      "name": "Adrian",
+      "username": "adrian",
       "age": 24,
       "company": "Ilegra",
+      "role": "admin",
       "nationality": "Brazilian"
     },
     {
       "id": 1,
-      "name": "Tarzan",
+      "username": "tarzan",
       "age": 28,
+      "role": "user",
       "company": "Ilegra",
       "nationality": "Brazilian"
     },
     {
       "id": 2,
-      "name": "José",
+      "username": "pedro",
       "age": 31,
+      "role": "user",
       "company": "Google",
       "nationality": "Canadian"
     }
