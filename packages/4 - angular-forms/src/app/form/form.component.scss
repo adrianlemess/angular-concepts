@@ -1,0 +1,17 @@
+.jumbotron {
+    text-align: center;
+    padding: 0 30%;
+
+    & .address .form-control {
+        margin-bottom: 20px;
+    }
+
+    & .skills {
+        :not(h4) {
+            text-align: left;
+            margin-left: 50px;
+            padding-left: 30px;
+        }
+
+    }
+}
