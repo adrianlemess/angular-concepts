@@ -13,14 +13,14 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.formService.getStates()
-      .subscribe(states => {
-        console.log(states);
-      });
+    // this.formService.getStates()
+    //   .subscribe(states => {
+    //     console.log(states);
+    //   });
 
-    this.formService.getCitiesByStateCode('AC')
-      .subscribe(cities => {
-        console.log(cities);
-      });
+    // this.formService.getCitiesByStateCode('AC')
+    //   .subscribe(cities => {
+    //     console.log(cities);
+    //   });
   }
 }
