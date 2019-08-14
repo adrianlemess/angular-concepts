@@ -13,7 +13,6 @@
     "lint": "ng lint",
     "e2e": "cypress open",
     "e2e:ci": "cypress run"
-
   },
   "jest": {
     "preset": "jest-preset-angular",
