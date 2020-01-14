@@ -1,0 +1,15 @@
+{
+  "name": "angular-concepts",
+  "version": "1.0.0",
+  "description": "Angular package with projects to learn Angular",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.16.4"
+  }
+}
